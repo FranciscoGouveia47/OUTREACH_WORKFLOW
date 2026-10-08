@@ -1,0 +1,49 @@
+{
+  "campaign_name": "Example Commercial Outreach",
+  "campaign_description": "Placeholder B2B outreach campaign used to demonstrate the workflow.",
+  "prompt_packet_version": "2026-10-08.1",
+  "source_workbook": "data/commercial_outreach_targets.xlsx",
+  "handoff_workbook": "review/chatgpt_handoff.xlsx",
+  "review_workbook": "review/email_review_queue.xlsx",
+  "send_log": "logs/send_log.csv",
+  "target_selection_guidance": "target_selection_guidance.md",
+  "prompt_rules": "prompt_rules.md",
+  "campaign_url": "https://example.com/commercial-offer",
+  "cta_label": "introductory call booking page",
+  "cta_url": "https://example.com/book-a-call",
+  "company_url": "https://example.com",
+  "company_linkedin_url": "https://www.linkedin.com/company/example-company",
+  "reference_code": "COMMERCIAL-PLACEHOLDER-001",
+  "sender_name": "Your Name",
+  "sender_position": "Commercial Outreach Lead",
+  "sender_organisation": "Example Company",
+  "subject_prefix": "[DRAFT]",
+  "max_daily_emails": 30,
+  "send_interval_minutes": 20,
+  "send_window_start": "09:00",
+  "send_window_end": "17:00",
+  "outlook_timeout_seconds": 60,
+  "outlook_sent_search_folder_names": ["Commercial Outreach"],
+  "allowed_recipient_types": ["Individual", "Organisation"],
+  "allowed_template_types": [
+    "Decision Maker",
+    "Partnership",
+    "Reseller / Channel",
+    "General / Fallback"
+  ],
+  "fallback_template_type": "General / Fallback",
+  "supported_languages": [
+    "English",
+    "Portuguese",
+    "Portuguese (Brazil)",
+    "Spanish",
+    "Italian",
+    "French",
+    "German"
+  ],
+  "disabled_template_reasons": {},
+  "disabled_personalisation_keywords": {
+    "do not contact": "do-not-contact note",
+    "competitor": "competitor"
+  }
+}

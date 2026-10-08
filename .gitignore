@@ -1,0 +1,22 @@
+.venv/
+.idea/
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Runtime output.
+logs/*.csv
+previews/*.txt
+review/*.xlsx
+review/archive/
+
+# Real campaign workbooks are usually private data. The checked-in example
+# workbook is synthetic and exists only so the repo runs out of the box.
+data/*.xlsx
+!data/commercial_outreach_targets.xlsx
+data/*.backup-*.xlsx
+data/backups/
+
+# Local-only exports and bulky source material.
+docs/*.pdf
